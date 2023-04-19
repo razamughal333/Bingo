@@ -31,6 +31,7 @@ function chargementPage() {
   }
 function affImg(e) {
     
+
   if (count < 3) {  
     document.getElementById(e.target.id).removeAttribute("onclick");
     imageclickes[count] = e.target.value;
